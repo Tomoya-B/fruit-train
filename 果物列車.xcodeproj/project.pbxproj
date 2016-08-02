@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3BED33D1D5096F100A3606F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BED33C1D5096F100A3606F /* AppDelegate.swift */; };
+		C3BED33F1D5096F100A3606F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C3BED33E1D5096F100A3606F /* GameScene.sks */; };
+		C3BED3411D5096F100A3606F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BED3401D5096F100A3606F /* GameScene.swift */; };
+		C3BED3431D5096F100A3606F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BED3421D5096F100A3606F /* GameViewController.swift */; };
+		C3BED3461D5096F100A3606F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BED3441D5096F100A3606F /* Main.storyboard */; };
+		C3BED3481D5096F100A3606F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BED3471D5096F100A3606F /* Assets.xcassets */; };
+		C3BED34B1D5096F100A3606F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BED3491D5096F100A3606F /* LaunchScreen.storyboard */; };
+		C3BED3561D5096F100A3606F /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BED3551D5096F100A3606F /* ____Tests.swift */; };
+		C3BED3611D5096F100A3606F /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BED3601D5096F100A3606F /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3BED3521D5096F100A3606F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BED3311D5096F000A3606F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3BED3381D5096F000A3606F;
+			remoteInfo = "果物列車";
+		};
+		C3BED35D1D5096F100A3606F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BED3311D5096F000A3606F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3BED3381D5096F000A3606F;
+			remoteInfo = "果物列車";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3BED3391D5096F000A3606F /* 果物列車.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "果物列車.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BED33C1D5096F100A3606F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3BED33E1D5096F100A3606F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C3BED3401D5096F100A3606F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C3BED3421D5096F100A3606F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C3BED3451D5096F100A3606F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3BED3471D5096F100A3606F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3BED34A1D5096F100A3606F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3BED34C1D5096F100A3606F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BED3511D5096F100A3606F /* 果物列車Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "果物列車Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BED3551D5096F100A3606F /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		C3BED3571D5096F100A3606F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BED35C1D5096F100A3606F /* 果物列車UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "果物列車UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BED3601D5096F100A3606F /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		C3BED3621D5096F100A3606F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3BED3361D5096F000A3606F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BED34E1D5096F100A3606F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BED3591D5096F100A3606F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3BED3301D5096F000A3606F = {
+			isa = PBXGroup;
+			children = (
+				C3BED33B1D5096F000A3606F /* 果物列車 */,
+				C3BED3541D5096F100A3606F /* 果物列車Tests */,
+				C3BED35F1D5096F100A3606F /* 果物列車UITests */,
+				C3BED33A1D5096F000A3606F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3BED33A1D5096F000A3606F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3BED3391D5096F000A3606F /* 果物列車.app */,
+				C3BED3511D5096F100A3606F /* 果物列車Tests.xctest */,
+				C3BED35C1D5096F100A3606F /* 果物列車UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3BED33B1D5096F000A3606F /* 果物列車 */ = {
+			isa = PBXGroup;
+			children = (
+				C3BED33C1D5096F100A3606F /* AppDelegate.swift */,
+				C3BED33E1D5096F100A3606F /* GameScene.sks */,
+				C3BED3401D5096F100A3606F /* GameScene.swift */,
+				C3BED3421D5096F100A3606F /* GameViewController.swift */,
+				C3BED3441D5096F100A3606F /* Main.storyboard */,
+				C3BED3471D5096F100A3606F /* Assets.xcassets */,
+				C3BED3491D5096F100A3606F /* LaunchScreen.storyboard */,
+				C3BED34C1D5096F100A3606F /* Info.plist */,
+			);
+			path = "果物列車";
+			sourceTree = "<group>";
+		};
+		C3BED3541D5096F100A3606F /* 果物列車Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C3BED3551D5096F100A3606F /* ____Tests.swift */,
+				C3BED3571D5096F100A3606F /* Info.plist */,
+			);
+			path = "果物列車Tests";
+			sourceTree = "<group>";
+		};
+		C3BED35F1D5096F100A3606F /* 果物列車UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3BED3601D5096F100A3606F /* ____UITests.swift */,
+				C3BED3621D5096F100A3606F /* Info.plist */,
+			);
+			path = "果物列車UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3BED3381D5096F000A3606F /* 果物列車 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3BED3651D5096F100A3606F /* Build configuration list for PBXNativeTarget "果物列車" */;
+			buildPhases = (
+				C3BED3351D5096F000A3606F /* Sources */,
+				C3BED3361D5096F000A3606F /* Frameworks */,
+				C3BED3371D5096F000A3606F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "果物列車";
+			productName = "果物列車";
+			productReference = C3BED3391D5096F000A3606F /* 果物列車.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3BED3501D5096F100A3606F /* 果物列車Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3BED3681D5096F100A3606F /* Build configuration list for PBXNativeTarget "果物列車Tests" */;
+			buildPhases = (
+				C3BED34D1D5096F100A3606F /* Sources */,
+				C3BED34E1D5096F100A3606F /* Frameworks */,
+				C3BED34F1D5096F100A3606F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3BED3531D5096F100A3606F /* PBXTargetDependency */,
+			);
+			name = "果物列車Tests";
+			productName = "果物列車Tests";
+			productReference = C3BED3511D5096F100A3606F /* 果物列車Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3BED35B1D5096F100A3606F /* 果物列車UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3BED36B1D5096F100A3606F /* Build configuration list for PBXNativeTarget "果物列車UITests" */;
+			buildPhases = (
+				C3BED3581D5096F100A3606F /* Sources */,
+				C3BED3591D5096F100A3606F /* Frameworks */,
+				C3BED35A1D5096F100A3606F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3BED35E1D5096F100A3606F /* PBXTargetDependency */,
+			);
+			name = "果物列車UITests";
+			productName = "果物列車UITests";
+			productReference = C3BED35C1D5096F100A3606F /* 果物列車UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3BED3311D5096F000A3606F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C3BED3381D5096F000A3606F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C3BED3501D5096F100A3606F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C3BED3381D5096F000A3606F;
+					};
+					C3BED35B1D5096F100A3606F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C3BED3381D5096F000A3606F;
+					};
+				};
+			};
+			buildConfigurationList = C3BED3341D5096F000A3606F /* Build configuration list for PBXProject "果物列車" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3BED3301D5096F000A3606F;
+			productRefGroup = C3BED33A1D5096F000A3606F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3BED3381D5096F000A3606F /* 果物列車 */,
+				C3BED3501D5096F100A3606F /* 果物列車Tests */,
+				C3BED35B1D5096F100A3606F /* 果物列車UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3BED3371D5096F000A3606F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BED33F1D5096F100A3606F /* GameScene.sks in Resources */,
+				C3BED34B1D5096F100A3606F /* LaunchScreen.storyboard in Resources */,
+				C3BED3481D5096F100A3606F /* Assets.xcassets in Resources */,
+				C3BED3461D5096F100A3606F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BED34F1D5096F100A3606F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BED35A1D5096F100A3606F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3BED3351D5096F000A3606F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BED3411D5096F100A3606F /* GameScene.swift in Sources */,
+				C3BED3431D5096F100A3606F /* GameViewController.swift in Sources */,
+				C3BED33D1D5096F100A3606F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BED34D1D5096F100A3606F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BED3561D5096F100A3606F /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BED3581D5096F100A3606F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BED3611D5096F100A3606F /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3BED3531D5096F100A3606F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3BED3381D5096F000A3606F /* 果物列車 */;
+			targetProxy = C3BED3521D5096F100A3606F /* PBXContainerItemProxy */;
+		};
+		C3BED35E1D5096F100A3606F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3BED3381D5096F000A3606F /* 果物列車 */;
+			targetProxy = C3BED35D1D5096F100A3606F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3BED3441D5096F100A3606F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BED3451D5096F100A3606F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3BED3491D5096F100A3606F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BED34A1D5096F100A3606F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3BED3631D5096F100A3606F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3BED3641D5096F100A3606F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3BED3661D5096F100A3606F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "果物列車/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "creators.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3BED3671D5096F100A3606F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "果物列車/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "creators.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3BED3691D5096F100A3606F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "果物列車Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "creators.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/果物列車.app/果物列車";
+			};
+			name = Debug;
+		};
+		C3BED36A1D5096F100A3606F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "果物列車Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "creators.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/果物列車.app/果物列車";
+			};
+			name = Release;
+		};
+		C3BED36C1D5096F100A3606F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "果物列車UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "creators.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "果物列車";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3BED36D1D5096F100A3606F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "果物列車UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "creators.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "果物列車";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3BED3341D5096F000A3606F /* Build configuration list for PBXProject "果物列車" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BED3631D5096F100A3606F /* Debug */,
+				C3BED3641D5096F100A3606F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3BED3651D5096F100A3606F /* Build configuration list for PBXNativeTarget "果物列車" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BED3661D5096F100A3606F /* Debug */,
+				C3BED3671D5096F100A3606F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3BED3681D5096F100A3606F /* Build configuration list for PBXNativeTarget "果物列車Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BED3691D5096F100A3606F /* Debug */,
+				C3BED36A1D5096F100A3606F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3BED36B1D5096F100A3606F /* Build configuration list for PBXNativeTarget "果物列車UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BED36C1D5096F100A3606F /* Debug */,
+				C3BED36D1D5096F100A3606F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3BED3311D5096F000A3606F /* Project object */;
+}
