@@ -9,35 +9,27 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    let π:CGFloat = 3.1415926535
+    
+    var x:CGFloat = 0.0
+    var y:CGFloat = 0.0
+    var deg:CGFloat = 0.0
+    
     override func didMoveToView(view: SKView)
     {
         /* Setup your scene here */
         
         self.backgroundColor = UIColor.whiteColor()
         
-        let oval = CAShapeLayer()
-        oval.strokeColor = UIColor.blueColor().CGColor
-        oval.fillColor = UIColor.whiteColor().CGColor
-        oval.lineWidth = 3.0
-        oval.lineDashPattern = [2,3]
+        let circle = SKShapeNode(circleOfRadius: 15)
+        circle.position = CGPointMake(self.size.width/2 + 20 * deg, self.size.height/2 + 20 * deg)
+        circle.fillColor = UIColor.redColor()
         
-        oval.path = UIBezierPath(ovalInRect: CGRect(x: view.bounds.size.width/2, y: view.bounds.size.height/2, width: 100.0, height: 100.0)).CGPath
         
-        view.layer.addSublayer(oval)
+        self.addChild(circle)
+        deg += π/100
         
-        let strokeStartAnimation = CABasicAnimation(keyPath: "strokeStart")
-        strokeStartAnimation.fromValue = -0.5
-        strokeStartAnimation.toValue = 1.0
- 
-        let strokeEndAnimation = CABasicAnimation(keyPath: "strokeEnd")
-        strokeEndAnimation.fromValue = 0.0
-        strokeEndAnimation.toValue = 1.0
- 
-        let strokeAnimationGroup = CAAnimationGroup()
-        strokeAnimationGroup.duration = 1.5
-        strokeAnimationGroup.repeatDuration = CFTimeInterval.infinity
-        strokeAnimationGroup.animations = [strokeStartAnimation,strokeEndAnimation]
-        oval.addAnimation(strokeAnimationGroup, forKey: nil)
         
     }
     
